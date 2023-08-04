@@ -1,0 +1,174 @@
+@charset "utf-8";
+
+* {margin:0px; padding:0px;}
+
+
+#imagebg {background-color:#772c2c;}
+
+#words {color:#8f8e8e; font-size:13.5px;}
+
+.selection ul {float:right; margin:10px 35px 0px 0px;}
+.selection ul li {display:inline-block;}
+.selection ul li .wow { padding:15px 25px 20px 25px; color:gray; text-decoration:none;}
+.selection ul li .wow:hover {background-color:#5a0000; color:white; text-decoration:none;}
+.selection ul li ul {float:right; position:absolute; background-color:#9f0101; height:auto; width:auto;}
+.selection ul li ul li  {display:none;}
+.selection ul li ul li a {color:#390000;border-top:.5px solid black; padding:15px 15px 15px 26px; display:block; width:212px;}
+.selection ul li:hover ul li {display:block;}
+.selection ul li ul li a:hover {color:#ececec; text-decoration:none; background-color:#bf0202;}
+
+/* for 653 max width*/
+
+.selection1 ul { margin:10px auto; text-align:center;}
+.selection1 ul li {display:inline-block;}
+.selection1 ul li .wow { padding:15px 60px 20px 60px; color:gray; text-decoration:none;}
+.selection1 ul li .wow:hover {background-color:#5a0000; color:white; text-decoration:none;}
+.selection1 ul li ul { text-align:left ;float:right; position:absolute; background-color:#9f0101; height:auto; width:auto;}
+.selection1 ul li ul li  {display:none;}
+.selection1 ul li ul li a {color:#390000;border-top:.5px solid black; padding:15px 15px 15px 26px; display:block; width:212px;}
+.selection1 ul li:hover ul li {display:block;}
+.selection1 ul li ul li a:hover {color:#ececec; text-decoration:none; background-color:#bf0202;}
+
+/*...end...*/
+
+
+@media only screen and (max-width:1920px) {#row2 {height:630px; overflow:hidden;} .add {height:500px;}
+											.hiddennav {display:none;} .selectionnew {display:block;} .selection1 {display:none;}.selection2 {display:none;}
+											#pindot2 {display:none;} .topnav1 {display:none;} .selection3 {display:none;}}
+
+
+@media only screen and (max-width:1280px) {#row2 {height:550px; overflow:hidden;} .add {height:500px;} .hiddennav {display:none;}.selectionnew {display:none;}
+									 #pindot2 {display:none;} .selection3 {display:none;} .selection2 {display:none;}.selection1 {display:none;}.topnav1 {display:none;}}
+
+
+@media only screen and (max-width:968px) {#row2 {height:550px; overflow:hidden;} .add {height:500px;} .hiddennav {display:none;}.selectionnew {display:none;}
+									#pindot2 {display:none;} .selection3 {display:none;}	.selection2 {display:none;}.selection1 {display:none;}.topnav1 {display:none;}}
+
+
+
+@media only screen and (max-width:913px) {#row2 {height:590px; overflow:hidden;} .add {height:500px;} .hiddennav {display:none;}.selectionnew {display:none;}
+									#pindot2 {display:none;} .selection3 {display:none;} .selection2 {display:none;}.selection1 {display:none;}.topnav1 {display:none;}}
+
+
+@media only screen and (max-width:797px) {#row2 {height:640px; overflow:hidden;} .add {height:500px;} .hiddennav {display:none;}.selectionnew {display:none;}
+										#pindot2 {display:none;} .selection3 {display:none;}	.selection2 {display:none;}.selection1 {display:none;}.topnav1 {display:none;}}
+
+
+@media only screen and (max-width:773px) {#row2 {height:620px; overflow:hidden;} .add {height:500px;} .hiddennav {display:none;}.selectionnew {display:none;}
+										#pindot2 {display:none;} .selection3 {display:none;}	.selection2 {display:none;}.selection1 {display:none;}.topnav1 {display:none;}}
+
+
+@media only screen and (max-width:768px) {#row2 {height:620px; overflow:hidden;} .add {height:500px;} .hiddennav {display:none;}.selectionnew {display:none;}
+										#pindot2 {display:none;} .selection3 {display:none;}	.selection2 {display:none;}.selection1 {display:none;}.topnav1 {display:none;}}
+
+
+@media only screen and (max-width:767px) {#row2 {height:auto; overflow:hidden;} .add {height:5px;} .hiddennav {display:none;}.selectionnew {display:none;}
+										#pindot2 {display:none;} .selection3 {display:none;}	.selection2 {display:none;}.selection1 {display:none;}.topnav1 {display:none;}}
+
+
+
+
+@media only screen and (max-width:653px) {#row2 {height:auto; overflow:hidden;} .add {height:5px;} .hiddennav {display:none;} .selection {display:none;}
+									.selectionnew {display:none;} .selection1 {display:block;} .topnav {display:none;}
+									#pindot2 {display:none;} .selection3 {display:none;} .selection2 {display:none;}.topnav1 {display:block;}  .firstnav1{display:block;}}
+
+
+@media only screen and (max-width:615px) { .add {height:500px;} .hiddennav {display:none;} .selection {display:none;}
+									.selectionnew {display:none;} .selection1 {display:block;} .topnav {display:none;}
+									#pindot2 {display:none;} .selection3 {display:none;} .selection2 {display:none;}.topnav1 {display:block;} .firstnav1{display:block;}}
+
+@media only screen and (max-width:614px) { .add {height:auto;} .hiddennav {display:none;} .selection {display:none;}
+									.selectionnew {display:none;} .selection1 {display:block;} .topnav {display:none;}
+									#pindot2 {display:none;} .selection3 {display:none;} .selection2 {display:none;}  .topnav1 {display:block;} .firstnav1{display:block;}}
+
+
+@media only screen and (max-width:613px) {#row2 {height:auto; } .add {height:500px;} .hiddennav {display:none;} .selection {display:none;}
+									.selectionnew {display:none;} .selection1 {display:none;} .topnav {display:none;}
+									.selection2 {display:none;}.topnav1 {display:block;} .firstnav1{display:block;font-size:12px;}
+									#pindot2 {display:block;} #palaman {display:none;} #addspace {margin-top:60px;}  .selection3 {display:none;} #imagebg {height:580px;} #topspace {display:none;}}
+
+
+@media only screen and (max-width:501px)  {#row2 {height:auto; } .add {height:500px;} .hiddennav {display:none;} .selection {display:none;}
+									.selectionnew {display:none;} .selection1 {display:none;} .topnav {display:none;}
+									.selection2 {display:none;}.topnav1 {display:block;} .firstnav1{display:block;font-size:12px;}
+									.selection3 {display:none;} #imagebg {height:560px;}#software2 {display:none;} #software{display:block; height:230px;} #software1 
+									{display:none;} #topspace {display:none;}}
+
+
+
+
+@media only screen and (max-width:480px)  {#row2 {height:auto; } .add {height:500px;} .hiddennav {display:none;} .selection {display:none;}
+									.selectionnew {display:none;} .selection1 {display:none;} .topnav {display:none;}
+									.selection2 {display:none;}.topnav1 {display:block;} .firstnav1{display:block;font-size:12px;}
+									.selection3 {display:none;} #software2 {display:none;} #software{display:block; height:230px;} #software1 
+									{display:none;} #rowspace {width:100%;} .headspace {width:100%;} #imagebg {height:550px;} #topspace {display:none;}}
+
+
+@media only screen and (max-width:445px)  {#row2 {height:auto; } .add {height:500px;} .hiddennav {display:none;} .selection {display:none;}
+									.selectionnew {display:none;} .selection1 {display:none;} .topnav {display:none;}
+									.selection2 {display:none;}.topnav1 {display:block;} .firstnav1{display:block;font-size:12px;}
+									.selection3 {display:none;} #imagebg {height:560px;}#software2 {display:none;} #software{display:block; height:230px;} #software1 
+									{display:none;} #rowspace {width:100%;} .headspace {width:100%;} #topspace {display:none;}}
+
+
+@media only screen and (max-width:399px)  {#row2 {height:auto; } .add {height:500px;} .hiddennav {display:none;} .selection {display:none;}
+									.selectionnew {display:none;} .selection1 {display:none;} .topnav {display:none;}
+									.selection2 {display:none;}.topnav1 {display:block;} .firstnav1{display:block;font-size:12px;}
+									.selection3 {display:none;} #imagebg {height:750px;}#software2 {display:none;} #software{display:block; height:230px;} #software1 
+									{display:none;} #rowspace {width:100%;} .headspace {width:100%;} #topspace {display:none;}}
+
+
+@media only screen and (max-width:398px)  {#row2 {height:auto; } .add {height:500px;} .hiddennav {display:none;} .selection {display:none;}
+									.selectionnew {display:none;} .selection1 {display:none;} .topnav {display:none;}
+									.selection2 {display:none;}.topnav1 {display:block;} .firstnav1{display:block;font-size:12px;}
+									.selection3 {display:none;} #imagebg {height:550px;}#software2 {display:none;} #software{display:block; height:230px;} #software1 
+									{display:none;} #rowspace {width:100%;} .headspace {width:100%;} #topspace {display:none;}}
+
+
+
+
+@media only screen and (max-width:381px)  {#row2 {height:auto; } .add {height:500px;} .hiddennav {display:none;} .selection {display:none;}
+									.selectionnew {display:none;} .selection1 {display:none;} .topnav {display:none;}
+									.selection2 {display:none;}.topnav1 {display:block;} .firstnav1{display:block;font-size:12px;}
+									.selection3 {display:none;} #imagebg {height:530px;}#software2 {display:none;} #software{display:block; height:230px;} #software1 
+									{display:none;} #rowspace {width:100%;} .headspace {width:100%;} #topspace {display:none;}}
+
+
+@media only screen and (max-width:361px)  {#row2 {height:auto; } .add {height:500px;} .hiddennav {display:none;} .selection {display:none;}
+									.selectionnew {display:none;} .selection1 {display:none;} .topnav {display:none;}
+									.selection2 {display:none;}.topnav1 {display:block;} .firstnav1{display:block;font-size:12px;}
+									.selection3 {display:none;} #imagebg {height:540px;}#software2 {display:none;} #software{display:block; height:230px;} #software1 
+									{display:none;} #rowspace {width:100%;} .headspace {width:100%;} #topspace {display:none;}}
+
+
+@media only screen and (max-width:327px)  {#row2 {height:auto; } .add {height:500px;} .hiddennav {display:none;} .selection {display:none;}
+									.selectionnew {display:none;} .selection1 {display:none;} .topnav {display:none;}
+									.selection2 {display:none;}.topnav1 {display:block;} .firstnav1{display:block;font-size:12px;}
+									.selection3 {display:none;} #imagebg {height:540px;}#software2 {display:none;} #software{display:block; height:230px;} #software1 
+									{display:none;} #rowspace {width:100%;} .headspace {width:100%;} #topspace {display:none;}}
+
+
+
+
+@media only screen and (max-width:320px)  {#row2 {height:auto; } .add {height:500px;} .hiddennav {display:none;} .selection {display:none;}
+									.selectionnew {display:none;} .selection1 {display:none;} .topnav {display:none;}
+									.selection2 {display:none;}.topnav1 {display:block;} .firstnav1{display:block; font-size:10px;}
+									.selection3 {display:none;} #imagebg {height:550px;}#software2 {display:none;} #software{display:block; height:230px;} #software1 
+									{display:none;} #topspace {display:none;} #rowspace {width:100%;} .headspace {width:100%;}}
+
+
+@media only screen and (max-width:310px)  {#row2 {height:auto; } .add {height:500px;} .hiddennav {display:none;} .selection {display:none;}
+									.selectionnew {display:none;} .selection1 {display:none;} .topnav {display:none;}
+									.selection2 {display:none;}.topnav1 {display:block;} .firstnav1 {display:block; font-size:10px;}
+									.selection3 {display:none;} #imagebg {height:580px;}#software2 {display:none;} #software{display:block; height:230px;} #software1 
+									{display:none;} #topspace {display:none;} #rowspace {width:100%;} .headspace {width:100%;}}
+
+
+
+
+
+
+
+
+
+
